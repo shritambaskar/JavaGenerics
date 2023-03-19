@@ -4,7 +4,7 @@ public class VishalClass {
 
 	public static void main(String[] args) {
 		
-		Ststem.out.println("this msg by vishal");
+		System.out.println("this msg by vishal");
 
 	}
 
