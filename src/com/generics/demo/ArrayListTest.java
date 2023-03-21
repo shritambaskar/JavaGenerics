@@ -2,12 +2,13 @@ package com.generics.demo;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 
 public class ArrayListTest {
 
 	public static void main(String[] args) {
 		
-		ArrayList<String> colorList = new ArrayList<String>();
+		List<String> colorList = new ArrayList<String>();
 		colorList.add("Red");
 		colorList.add("Blue");
 		colorList.add("Yellow");
