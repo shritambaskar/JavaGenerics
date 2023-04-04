@@ -13,6 +13,22 @@ public class ArrayListTest {
 		colorList.add("Blue");
 		colorList.add("Yellow");
 		colorList.add("Green");
+		colorList.add("Blue");
+		 
+		
+		// chang by vishal
+		
+		List<Integer> marksList = new ArrayList<Integer>();
+		marksList.add(55);
+		marksList.add(18);
+		marksList.add(78);
+		marksList.add(79);
+		
+		System.out.println(" - - - - -to iterat the marks array list - - - - - -");
+		
+		for(int i=0; i< marksList.size(); i++) {
+				System.out.println(marksList.get(i));
+		}
 		
 //		System.out.println("\n.....Using For each loop....");
 //		
@@ -31,7 +47,7 @@ public class ArrayListTest {
 		for (int i = 0; i < colorList.size(); i++) {
 			System.out.println(colorList.get(i));
 		}
-		
+        System.out.println("vishal");
 
 	}
 
